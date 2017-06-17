@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitter Debubbler",
+  "version": "0.1.0",
+  "description": "Removes Twitter's newly introduced edge design",
+
+  "icons": {
+    "16": "ico/ico_16.png",
+    "48": "ico/ico_48.png",
+    "128": "ico/ico_128.png"
+  },
+
+  "content_scripts": [{
+    "js": ["vendor/jquery-3.2.1.slim.min.js", "dist/edgedesign.js"],
+    "matches": ["https://twitter.com/*"],
+    "run_at": "document_start"
+  }]
+}
