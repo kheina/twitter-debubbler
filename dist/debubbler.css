@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'rosettaicons';
-    src: url('chrome-extension://moecaljldenobhaklefifiegihjnhhde/dist/icons/rosetta-icons-Regular.eot');
-    src: url('chrome-extension://moecaljldenobhaklefifiegihjnhhde/dist/icons/rosetta-icons-Regular.eot#iefix') format('embedded-opentype'), url('chrome-extension://moecaljldenobhaklefifiegihjnhhde/dist/icons/rosetta-icons-Regular.woff') format('woff'), url('chrome-extension://moecaljldenobhaklefifiegihjnhhde/dist/icons/rosetta-icons-Regular.ttf') format('truetype');
+    src: url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.eot');
+    src: url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.eot#iefix') format('embedded-opentype'), url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.woff') format('woff'), url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal
 }
@@ -750,7 +750,7 @@ body .tweet>.context .with-icn .Icon--reply {
     color: #1da1f2
 }
 body .HeartAnimation {
-    background-image: url(chrome-extension://moecaljldenobhaklefifiegihjnhhde/dist/icons/web_heart_animation.png)
+    background-image: url(chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/web_heart_animation.png)
 }
 body .follow-status {
     text-transform: uppercase

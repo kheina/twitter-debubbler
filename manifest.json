@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Twitter Debubbler",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Removes Twitter's newly introduced edge design",
 
   "icons": {
