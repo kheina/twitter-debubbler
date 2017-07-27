@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Twitter Debubbler",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Removes Twitter's newly introduced edge design",
 
   "icons": {
@@ -12,8 +12,13 @@
   },
 
   "content_scripts": [{
-    "js": ["vendor/jquery-3.2.1.slim.min.js", "dist/edgedesign.js"],
+    "css": ["dist/debubbler.css"],
     "matches": ["https://twitter.com/*"],
     "run_at": "document_start"
-  }]
+  }],
+
+  "web_accessible_resources": [
+    "dist/icons/*",
+    "dist/debubbler.css"
+  ]
 }
