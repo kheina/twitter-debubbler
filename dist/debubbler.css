@@ -11,6 +11,9 @@ body {
 body .Gallery.without-tweet .Gallery-content {
     border-radius: 0
 }
+body .Gallery.with-tweet.without-tweet .Gallery-media {
+    border-radius: 0
+}
 body .MomentCapsuleSummary .MomentUserByline-avatar,
 body .MomentMakerRecommendedTweetsSearch--users .MomentMakerRecommendedTweetsSearch-userContainer .avatar {
     border-radius: 2px
