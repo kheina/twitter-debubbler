@@ -10,6 +10,12 @@ Install the extension for Chrome directly via Google's Web Store or do it manual
 
 [![Available in the Chrome Web Store](http://static.kaibrueckers.com/chrome-webstore-badge.png)](http://bit.ly/2sHWnoF)
 
+## Changes
+1. Fixed broken icons (old icons no longer work, working on fix)
+2. Added nightmode support
+3. Fixed search bar and nav bar icon
+4. Added tweetdeck support
+
 ## Featured on
 
 [![Mashable](http://static.kaibrueckers.com/feature-mashable.png)](http://mashable.com/2017/06/16/get-rid-of-twitter-bubbles/#yfl63wXniOqc)[![ProductHunt](http://static.kaibrueckers.com/feature-producthunt.png)](https://www.producthunt.com/posts/twitter-debubbler)[![The Verge](http://static.kaibrueckers.com/feature-verge.png)](https://www.theverge.com/2017/6/16/15821004/twitter-debubbler-chrome-extension)[![The Next Web](http://static.kaibrueckers.com/feature-tnw.png)](https://thenextweb.com/twitter/2017/06/16/hate-twitters-bubblys-redesign-extension-gets-rid/#.tnw_mdOJuWAS)

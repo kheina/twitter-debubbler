@@ -5,9 +5,6 @@
     font-style: normal;
     font-weight: normal
 }
-body {
-    background: #f5f8fa!important
-}
 body .Gallery.without-tweet .Gallery-content {
     border-radius: 0
 }
@@ -19,8 +16,9 @@ body .MomentMakerRecommendedTweetsSearch--users .MomentMakerRecommendedTweetsSea
     border-radius: 2px
 }
 body .Avatar,
-body .avatar {
-    border-radius: 3px
+body .avatar,
+body .nav .session .dropdown-toggle {
+    border-radius: 3px !important
 }
 body .ProfileCardMini-avatarImage,
 body .ProfileUserList .Avatar,
@@ -96,14 +94,12 @@ body .AdaptiveGeoPlace {
     border-radius: 5px
 }
 body .InputToken {
-    background-color: #97e3ff;
     border-radius: 2px;
-    border: 1px solid #97e3ff;
-    color: #1da1f2;
+    border: 1px solid;
     padding: 1px 5px
 }
 body .InputToken:focus {
-    border: 1px solid #1da1f2;
+    border: 1px solid;
     outline: 0
 }
 body .content-header .header-inner {
@@ -144,7 +140,6 @@ body .AdaptiveNewsLargeImageHeadline-body {
 }
 body .dropdown-menu li>a s,
 body .dropdown-menu .dropdown-link s {
-    color: #66757f
 }
 body .AdaptiveFiltersBar-target,
 body .MomentGuideNavigation-target {
@@ -192,7 +187,7 @@ body .TweetBox-photoIntent .photo-selector .btn {
 }
 body .Icon:before,
 body .Icon:after {
-    font-family: "rosettaicons"
+    /*font-family: "rosettaicons"*/
 }
 body .nav .moments .Icon--lightning,
 body .nav .moments .Icon--lightningFilled {
@@ -486,7 +481,6 @@ body .Trends .trend-location,
 body .Trends .flex-module-header .middot,
 body .LiveVideoHomePageModule-title,
 body .WtfLargeCarouselStreamItem-title {
-    color: #657786
 }
 body .WhoToFollowViewAllPage .content-header #content-main-heading,
 body .modal-header .modal-title,
@@ -503,18 +497,14 @@ body .Streams-dividerText,
 body .SignupCallOut-title,
 body .RelatedUsers-title,
 body .search h1 {
-    color: #66757f
 }
 body .SignupCallOut {
-    background-color: #e6ecf0
 }
 body .ProfileTweet-actionButton,
 body .ProfileTweet-actionButtonUndo,
 body .ProfileTweet-actionCount {
-    color: #aab8c2
 }
 body .RichEntryHeaderCaret {
-    color: #aab8c2
 }
 body .ProfileCardStats-statLabel,
 body .MomentCapsuleLikesFacepile-count,
@@ -531,19 +521,16 @@ body .Gallery .modal-close {
     padding: 0
 }
 body .Gallery .modal-close .Icon--close {
-    color: #fff;
     font-size: 21px;
     font-weight: bold
 }
 body .PermalinkProfile-dismiss {
-    color: #fff!important;
     cursor: pointer;
     float: right;
     left: 35px;
     position: relative
 }
 body .PermalinkProfile-dismiss a {
-    color: #fff!important
 }
 body .MomentDropdownMenu-button>.Icon {
     top: 0
@@ -664,7 +651,6 @@ body .ProfileHeaderCard-onlineHoursText,
 body .ProfileHeaderCard-responsivenessLevelText,
 body .ProfileHeaderCard-vineProfileText,
 body .ProfileHeaderCard-periscopeProfileText {
-    color: #14171a;
     line-height: inherit;
     vertical-align: inherit;
     margin-top: 2px;
@@ -698,7 +684,7 @@ body .ProfileSidebar .PhotoRail {
 body .ProfileSidebar .TweetImpressionsModule,
 body .ProfileSidebar .ProfileLifelineInfo,
 body .ProfileSidebar .RelatedUsers {
-    margin-top: 10px
+	border-radius: 6px
 }
 body .ProfileUserList-heading {
     font-size: inherit;
@@ -743,14 +729,11 @@ body .user-actions .dropdown {
     margin-left: 8px
 }
 body .tweet>.context .with-icn .Icon--retweeted {
-    color: #17bf63
 }
 body .tweet>.context .with-icn .Icon--heartBadge {
-    color: #e0245e
 }
 body .tweet>.context .with-icn .Icon--follower,
 body .tweet>.context .with-icn .Icon--reply {
-    color: #1da1f2
 }
 body .HeartAnimation {
     background-image: url(chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/web_heart_animation.png)
@@ -759,11 +742,11 @@ body .follow-status {
     text-transform: uppercase
 }
 body .ProfileCard {
-    border: 1px solid #e6ecf0;
+    border: 1px solid;
     border-radius: 5px
 }
 body .ProfileCard-bg {
-    border-bottom: 1px solid #e6ecf0;
+    border-bottom: 1px solid;
     height: 95px;
     border-radius: 4px 4px 0 0
 }
@@ -772,7 +755,6 @@ body .ProfileCard-bio {
     margin-top: 5px
 }
 body .ProfileCard-bio {
-    color: #66757f
 }
 body .ProfileCard .social-proof {
     margin-top: 10px
@@ -782,9 +764,7 @@ body .ProfileCardStats {
     padding: 0 0 10px
 }
 body .hovercard.profile-card .ProfileCard-content .FollowStatus {
-    background-color: #f5f8fa;
     border-radius: 3px;
-    color: #657786;
     display: inline-block;
     margin-left: 0;
     padding: 0 4px
@@ -831,7 +811,6 @@ body .hovercard.profile-card .ProfileCard-userFields {
 }
 body .Footer .Footer-adsModule,
 body .wtf-module .import-prompt {
-    background: #f5f8fa
 }
 body .stream-container .AdaptiveStreamGridImage .grid-tweet-action.action-reply-container {
     width: 18px;
@@ -907,20 +886,16 @@ body .DirectMessage .Caret:after {
     top: auto!important
 }
 body .DirectMessage .Caret:after {
-    border-color: #fff
 }
 body .DirectMessage--sent .Caret:before {
-    border-color: #1da1f2
 }
 body .DirectMessage--received .Caret:before {
-    border-color: #e6ecf0
 }
 body .DMQuickReply-optionText {
     border-radius: 5px
 }
 body .FollowStatus {
     text-transform: uppercase;
-    background-color: #fff;
     border: 0;
     font-size: 11px;
     margin-left: 3px
@@ -965,22 +940,20 @@ body .MomentLikeButton .Icon--heartBadge:before {
     }
 }
 body .follow-card .follow-bar {
-    background-color: #ebebeb;
     background-image: linear-gradient(#f2f2f2, #ebebeb);
     background-repeat: repeat-x;
     border-radius: 0 0 6px 6px;
-    border-top: 1px solid #e6ecf0
+    border-top: 1px solid
 }
 body .PromptbirdPrompt--modal .btn-link {
-    color: #1da1f2
 }
 body .PromptbirdPrompt--inline,
 body .PromptbirdPrompt--inlinePointer {
-    border: 1px solid #97e3ff;
+    border: 1px solid;
     border-radius: 5px
 }
 body .PromptbirdPrompt--aboveTimeline {
-    border: 1px solid #97e3ff
+    border: 1px solid
 }
 body .LiveVideoPage .LiveVideoTimeline.is-multipleTimelines .LiveVideo-tweetBox {
     border-radius: 5px
@@ -1029,7 +1002,6 @@ body .front-signup {
 }
 body .Footer .Footer-adsModule,
 body.wtf-module .import-prompt {
-    background: #f5f8fa
 }
 body .tweet-form .thumbnail-container .preview-message {
     font-size: 12px
@@ -1053,18 +1025,15 @@ body .MomentFollowButton .MomentButton-icon {
     font-size: 16px;
     line-height: 16px
 }
-body .basic-search .input-wrapper .search-input,
+body .global-nav .search-input,
 body .dropdown-menu .geo-query-location input[type=text] {
-    background-color: #fff;
-    border-radius: 0
+    border-radius: 4px
 }
 body .search {
     border-radius: 6px;
-    background-color: #f9f9f9;
     border: 1px solid rgba(0, 0, 0, 0.1)
 }
 body .advanced-search select {
-    background-color: #fff
 }
 body .content-searchbar .search-query {
     border-radius: 0
