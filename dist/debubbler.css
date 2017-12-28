@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'rosettaicons';
-    src: url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.eot');
-    src: url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.eot#iefix') format('embedded-opentype'), url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.woff') format('woff'), url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.ttf') format('truetype');
+    src: url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.woff') format('woff'), url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal
 }
@@ -187,7 +186,7 @@ body .TweetBox-photoIntent .photo-selector .btn {
 }
 body .Icon:before,
 body .Icon:after {
-    /*font-family: "rosettaicons"*/
+    font-family: "rosettaicons"
 }
 body .nav .moments .Icon--lightning,
 body .nav .moments .Icon--lightningFilled {
