@@ -1,9 +1,18 @@
 @font-face {
     font-family: 'rosettaicons';
-    src: url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.woff') format('woff'), url('chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/rosetta-icons-Regular.ttf') format('truetype');
+    src: url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/rosetta-icons-Regular.eot');
+    src: url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/rosetta-icons-Regular.eot#iefix') format('embedded-opentype'), url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/rosetta-icons-Regular.woff') format('woff'), url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/rosetta-icons-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal
 }
+@font-face {
+    font-family: 'tweetdeck';
+    src: url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/tweetdeck-regular.eot');
+    src: url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/tweetdeck-regular.eot#iefix') format('embedded-opentype'), url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/tweetdeck-regular.woff') format('woff'), url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/tweetdeck-regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal
+}
+/* gefanibciadccmleoclooncifjflapbe / ajkefdemcnghidckjedhgbdgppiogjdj */
 body .Gallery.without-tweet .Gallery-content {
     border-radius: 0
 }
@@ -186,7 +195,44 @@ body .TweetBox-photoIntent .photo-selector .btn {
 }
 body .Icon:before,
 body .Icon:after {
-    font-family: "rosettaicons"
+	font-family: "rosettaicons" !important
+}
+body .icon:before,
+body .icon:after {
+    font-family: "tweetdeck" !important
+}
+body .pull-right:before,
+body .pull-right:after {
+	font-size: 17px !important
+}
+body .icon-play-video:before,
+body .icon-play-video:after,
+body .video-overlay .icon:before,
+body .video-overlay .icon:after {
+	font-size: 40px
+}
+a .icon:before,
+a .icon:after {
+	font-size: 20px
+}
+a .icon-check:before,
+a .icon-check:after {
+	font-size: 12px
+}
+a .icon-medium:before,
+a .icon-medium:after {
+	font-size: 24px
+}
+a .icon-large:before,
+a .icon-large:after {
+	font-size: 26px
+}
+li.js-item-launch i:before,
+li.js-item-launch i:after {
+	font-size: 34px
+}
+body .btn-compose {
+	padding: 3px 8px 0px !important
 }
 body .nav .moments .Icon--lightning,
 body .nav .moments .Icon--lightningFilled {
@@ -735,7 +781,7 @@ body .tweet>.context .with-icn .Icon--follower,
 body .tweet>.context .with-icn .Icon--reply {
 }
 body .HeartAnimation {
-    background-image: url(chrome-extension://gefanibciadccmleoclooncifjflapbe/dist/icons/web_heart_animation.png)
+    background-image: url(chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/web_heart_animation.png)
 }
 body .follow-status {
     text-transform: uppercase
