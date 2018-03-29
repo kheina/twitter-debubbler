@@ -25,7 +25,7 @@ body .MomentMakerRecommendedTweetsSearch--users .MomentMakerRecommendedTweetsSea
 }
 body .Avatar,
 body .avatar,
-body .nav .session .dropdown-toggle {
+body .nav .session .dropdown-toggle, button, input {
     border-radius: 3px !important
 }
 body .ProfileCardMini-avatarImage,
@@ -165,7 +165,6 @@ body .DMComposer-editor {
 }
 body .DMComposer-discardTweet {
     border-radius: 3px;
-    margin-top: 0;
     margin-right: 0
 }
 body .RichEditor {
@@ -572,7 +571,6 @@ body .Gallery .modal-close .Icon--close {
 body .PermalinkProfile-dismiss {
     cursor: pointer;
     float: right;
-    left: 35px;
     position: relative
 }
 body .PermalinkProfile-dismiss a {
