@@ -11,7 +11,7 @@ Install the extension for Chrome directly via Google's Web Store or do it manual
 [![Available in the Chrome Web Store](http://static.kaibrueckers.com/chrome-webstore-badge.png)](http://bit.ly/2sHWnoF)
 
 ## Changes
-1. Fixed broken icons (old icons no longer work, working on fix)
+1. Fixed broken icons
 2. Added nightmode support
 3. Fixed search bar and nav bar icon
 4. Added tweetdeck support
