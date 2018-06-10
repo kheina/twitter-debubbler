@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'rosettaicons';
-    src: url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/rosetta-icons-Regular.eot');
-    src: url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/rosetta-icons-Regular.eot#iefix') format('embedded-opentype'), url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/rosetta-icons-Regular.woff') format('woff'), url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/rosetta-icons-Regular.ttf') format('truetype');
+    src: url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/rosetta-icons-Regular.eot');
+    src: url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/rosetta-icons-Regular.eot#iefix') format('embedded-opentype'), url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/rosetta-icons-Regular.woff') format('woff'), url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/rosetta-icons-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal
 }
 @font-face {
     font-family: 'tweetdeck';
-    src: url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/tweetdeck-regular.eot');
-    src: url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/tweetdeck-regular.eot#iefix') format('embedded-opentype'), url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/tweetdeck-regular.woff') format('woff'), url('chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/tweetdeck-regular.ttf') format('truetype');
+    src: url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/tweetdeck-regular.eot');
+    src: url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/tweetdeck-regular.eot#iefix') format('embedded-opentype'), url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/tweetdeck-regular.woff') format('woff'), url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/tweetdeck-regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal
 }
-/* gefanibciadccmleoclooncifjflapbe / ajkefdemcnghidckjedhgbdgppiogjdj */
+/* gefanibciadccmleoclooncifjflapbe / hkjoicffkkieieemalcahjhhknneoapn */
 body .Gallery.without-tweet .Gallery-content {
     border-radius: 0
 }
@@ -30,13 +30,11 @@ body .nav .session .dropdown-toggle, button, input {
 }
 body .ProfileCardMini-avatarImage,
 body .ProfileUserList .Avatar,
-body .ProfileUserList .avatar {
-    border-radius: 4px
-}
+body .ProfileUserList .avatar,
 body .ProfileCard-avatarImage,
 body .ProfileListItem-avatar,
 body .ListCreationModule {
-    border-radius: 5px
+    border-radius: 4px
 }
 body .DashboardProfileCard-avatarLink,
 body .Gallery.without-tweet .Gallery-media,
@@ -98,7 +96,9 @@ body .PromptbirdPrompt-streamItem.separated-module+.stream-item {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px
 }
-body .AdaptiveGeoPlace {
+body .AdaptiveGeoPlace,
+body .SidebarFilterModule,
+body .AdaptiveRelatedSearches {
     border-radius: 5px
 }
 body .InputToken {
@@ -119,9 +119,6 @@ body .content-inner.no-stream-end {
 body .top-timeline-tweetbox .tweet-user {
     border-radius: 3px 3px 0 0
 }
-body .SidebarFilterModule {
-    border-radius: 5px
-}
 body .AdaptiveSearchTimeline .stream .stream-item:first-child {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px
@@ -136,9 +133,6 @@ body .AdaptiveSearchTimeline-separationModule+.stream-item {
 }
 body .top-timeline-tweetbox .tweet-user {
     border-radius: 3px 3px 0 0
-}
-body .AdaptiveRelatedSearches {
-    border-radius: 5px
 }
 body .AdaptiveNewsLargeImageHeadline-image {
     border-radius: 5px 5px 0 0
@@ -779,7 +773,7 @@ body .tweet>.context .with-icn .Icon--follower,
 body .tweet>.context .with-icn .Icon--reply {
 }
 body .HeartAnimation {
-    background-image: url(chrome-extension://ajkefdemcnghidckjedhgbdgppiogjdj/dist/icons/web_heart_animation.png)
+    background-image: url(chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/web_heart_animation.png)
 }
 body .follow-status {
     text-transform: uppercase

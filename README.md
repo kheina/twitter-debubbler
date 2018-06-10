@@ -1,4 +1,4 @@
-![Twitter Debubbler](http://static.kaibrueckers.com/twitter-debubbler-hero.png)
+![Twitter Debubbler](https://Ln2.co/images/twitter-debubbler.png)
 
 # Twitter Debubbler
 
@@ -8,7 +8,7 @@ Not yet ready for Twitter’s new redesign? ༼ つ ◕_◕ ༽つ Fear not, I�
 
 Install the extension for Chrome directly via Google's Web Store or do it manually by cloning this repository. To revert back to the current design, simply delete or deactivate Twitter Debubbler.
 
-[![Available in the Chrome Web Store](http://static.kaibrueckers.com/chrome-webstore-badge.png)](http://bit.ly/2sHWnoF)
+[![Available in the Chrome Web Store](https://Ln2.co/images/chrome-web-store.png)](https://chrome.google.com/webstore/detail/twitter-debubbler/hkjoicffkkieieemalcahjhhknneoapn)
 
 ## Changes
 1. Fixed broken icons
@@ -18,4 +18,4 @@ Install the extension for Chrome directly via Google's Web Store or do it manual
 
 ## Featured on
 
-[![Mashable](http://static.kaibrueckers.com/feature-mashable.png)](http://mashable.com/2017/06/16/get-rid-of-twitter-bubbles/#yfl63wXniOqc)[![ProductHunt](http://static.kaibrueckers.com/feature-producthunt.png)](https://www.producthunt.com/posts/twitter-debubbler)[![The Verge](http://static.kaibrueckers.com/feature-verge.png)](https://www.theverge.com/2017/6/16/15821004/twitter-debubbler-chrome-extension)[![The Next Web](http://static.kaibrueckers.com/feature-tnw.png)](https://thenextweb.com/twitter/2017/06/16/hate-twitters-bubblys-redesign-extension-gets-rid/#.tnw_mdOJuWAS)
+[![Mashable](https://Ln2.co/images/mashable.png)](http://mashable.com/2017/06/16/get-rid-of-twitter-bubbles/#yfl63wXniOqc)[![ProductHunt](https://Ln2.co/images/product-hunt.png)](https://www.producthunt.com/posts/twitter-debubbler)[![The Verge](https://Ln2.co/images/the-verge.png)](https://www.theverge.com/2017/6/16/15821004/twitter-debubbler-chrome-extension)[![The Next Web](https://Ln2.co/images/the-next-web.png)](https://thenextweb.com/twitter/2017/06/16/hate-twitters-bubblys-redesign-extension-gets-rid/#.tnw_mdOJuWAS)
