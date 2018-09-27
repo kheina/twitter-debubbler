@@ -12,7 +12,7 @@
     font-style: normal;
     font-weight: normal
 }
-/* gefanibciadccmleoclooncifjflapbe / hkjoicffkkieieemalcahjhhknneoapn */
+/* ajkefdemcnghidckjedhgbdgppiogjdj / hkjoicffkkieieemalcahjhhknneoapn */
 body .Gallery.without-tweet .Gallery-content {
     border-radius: 0
 }
@@ -1096,3 +1096,9 @@ body .MomentCapsuleLikesFacepile-countNum {
 { border-radius: 3px !important; }
 .tweet-detail-media .media-item, .tweet-detail-media .media-preview
 { border-radius: 5px !important; }
+a.tweet-action span.margin-t--1
+{ margin-top: 0px!important; }
+.attach-compose-buttons .tweet-button
+{ border-radius: 3px 0 0 3px !important; }
+.mdl.s-full
+{ border-radius: 0px !important; }
