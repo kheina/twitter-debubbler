@@ -1094,3 +1094,5 @@ body .MomentCapsuleLikesFacepile-countNum {
 { border-radius: 7px !important; }
 .quoted-tweet .media-size-medium, .quoted-tweet .media-size-small
 { border-radius: 3px !important; }
+.tweet-detail-media .media-item, .tweet-detail-media .media-preview
+{ border-radius: 5px !important; }
