@@ -1088,9 +1088,9 @@ body .MomentCapsuleLikesFacepile-countNum {
     padding-right: 0
 }
 
-.media-size-medium
+.media-size-medium, .media-size-small
 { border-radius: 4px !important; }
 .br--14
 { border-radius: 7px !important; }
-.quoted-tweet .media-size-medium
+.quoted-tweet .media-size-medium, .quoted-tweet .media-size-small
 { border-radius: 3px !important; }
