@@ -1088,17 +1088,24 @@ body .MomentCapsuleLikesFacepile-countNum {
     padding-right: 0
 }
 
-.media-size-medium, .media-size-small
+.media-size-medium, .media-size-small, .compose-media-grid-holder
 { border-radius: 4px !important; }
 .br--14
 { border-radius: 7px !important; }
-.quoted-tweet .media-size-medium, .quoted-tweet .media-size-small
+.quoted-tweet .media-size-medium, .quoted-tweet .media-size-small, .media-grid-container, .compose-media-bar-thumb.full-width
 { border-radius: 3px !important; }
-.tweet-detail-media .media-item, .tweet-detail-media .media-preview
+.tweet-detail-media .media-item, .tweet-detail-media .media-preview, .AdaptiveMedia, .TwitterCard-container
 { border-radius: 5px !important; }
 a.tweet-action span.margin-t--1
-{ margin-top: 0px!important; }
+{
+	margin-top: 0px!important;
+	margin-bottom: -1em;
+}
 .attach-compose-buttons .tweet-button
 { border-radius: 3px 0 0 3px !important; }
-.mdl.s-full
+.mdl.s-full, .media-grid-container .media-image-container .media-image, .AdaptiveMedia-video, .PlayableMedia-container
 { border-radius: 0px !important; }
+.PlayableMedia-container, .AdaptiveMedia.is-square:not(.is-video)
+{ border: 0 !important; }
+.media-sensitive, .js-media-sensitive-overlay, .media-sensitive .js-media-sensitive-overlay
+{ border-radius: 3px !important; }
