@@ -110,9 +110,6 @@ body .InputToken:focus {
     border: 1px solid;
     outline: 0
 }
-body .content-header .header-inner {
-    border-radius: 4px 4px 0 0
-}
 body .content-inner.no-stream-end {
     border-radius: 0 0 6px 6px
 }
@@ -779,11 +776,11 @@ body .follow-status {
     text-transform: uppercase
 }
 body .ProfileCard {
-    border: 1px solid;
+    border: 1px solid inherit;
     border-radius: 5px
 }
 body .ProfileCard-bg {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid inherit;
     height: 95px;
     border-radius: 4px 4px 0 0
 }
@@ -977,7 +974,6 @@ body .MomentLikeButton .Icon--heartBadge:before {
     }
 }
 body .follow-card .follow-bar {
-    background-image: linear-gradient(#f2f2f2, #ebebeb);
     background-repeat: repeat-x;
     border-radius: 0 0 6px 6px;
     border-top: 1px solid
@@ -986,7 +982,7 @@ body .PromptbirdPrompt--modal .btn-link {
 }
 body .PromptbirdPrompt--inline,
 body .PromptbirdPrompt--inlinePointer {
-    border: 1px solid;
+    border: 1px solid inherit;
     border-radius: 5px
 }
 body .PromptbirdPrompt--aboveTimeline {
@@ -1101,6 +1097,8 @@ a.tweet-action span.margin-t--1
 	margin-top: 0px!important;
 	margin-bottom: -1em;
 }
+.list-nav, .js-nav-links
+
 .attach-compose-buttons .tweet-button
 { border-radius: 3px 0 0 3px !important; }
 .mdl.s-full, .media-grid-container .media-image-container .media-image, .AdaptiveMedia-video, .PlayableMedia-container
@@ -1113,3 +1111,7 @@ a.tweet-action span.margin-t--1
 { border-radius: 0 !important; }
 .rn-bqytpi, .rn-1sed4dd, .rn-11x824e, .rn-r0fnf6, .rn-5kkj8d, .rn-1ljd8xs, .rn-1loqt21, .rn-o7ynqc, .rn-1j63xyz
 { border-radius: 4px !important; }
+ul.js-nav-links li
+{ border-radius: 6px !important; }
+.content-header .header-inner
+{ border-radius: inherit !important; }
