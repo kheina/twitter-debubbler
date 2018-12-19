@@ -1,3 +1,19 @@
+/* FIREFOX */
+@font-face {
+    font-family: 'rosettaicons';
+    src: url('./icons/rosetta-icons-Regular.eot');
+    src: url('./icons/rosetta-icons-Regular.eot#iefix') format('embedded-opentype'), url('./icons/rosetta-icons-Regular.woff') format('woff'), url('./icons/rosetta-icons-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal
+}
+@font-face {
+    font-family: 'tweetdeck';
+    src: url('./icons/tweetdeck-regular.eot');
+    src: url('./icons/tweetdeck-regular.eot#iefix') format('embedded-opentype'), url('./icons/tweetdeck-regular.woff') format('woff'), url('./icons/tweetdeck-regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal
+} /* */
+/* CHROME
 @font-face {
     font-family: 'rosettaicons';
     src: url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/rosetta-icons-Regular.eot');
@@ -11,8 +27,7 @@
     src: url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/tweetdeck-regular.eot#iefix') format('embedded-opentype'), url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/tweetdeck-regular.woff') format('woff'), url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/tweetdeck-regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal
-}
-/* ajkefdemcnghidckjedhgbdgppiogjdj / hkjoicffkkieieemalcahjhhknneoapn */
+} /* */
 body .Gallery.without-tweet .Gallery-content {
     border-radius: 0
 }
@@ -770,7 +785,10 @@ body .tweet>.context .with-icn .Icon--follower,
 body .tweet>.context .with-icn .Icon--reply {
 }
 body .HeartAnimation {
-    background-image: url(chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/web_heart_animation.png)
+    /* FIREFOX */
+    background-image: url(./icons/web_heart_animation.png) /* */
+    /* CHROME 
+    background-image: url(chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/web_heart_animation.png); /* */
 }
 body .follow-status {
     text-transform: uppercase
@@ -1084,7 +1102,7 @@ body .MomentCapsuleLikesFacepile-countNum {
     padding-right: 0
 }
 
-.media-size-medium, .media-size-small, .compose-media-grid-holder
+.media-size-medium, .media-size-small, .compose-media-grid-holder, .TwitterCard-container
 { border-radius: 4px !important; }
 .br--14
 { border-radius: 7px !important; }

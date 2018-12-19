@@ -6,15 +6,17 @@ Not yet ready for Twitter’s new redesign? ༼ つ ◕_◕ ༽つ Fear not, I�
 
 ## Installation
 
-Install the extension for Chrome directly via Google's Web Store or do it manually by cloning this repository. To revert back to the current design, simply delete or deactivate Twitter Debubbler.
+Install the extension for [Chrome](https://chrome.google.com/webstore/detail/twitter-debubbler/hkjoicffkkieieemalcahjhhknneoapn) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/the-twitter-debubbler/) directly via Google Web Store or Firefox's Add-on Repository. You may also install it manually by cloning this repository. To revert back to the current design, simply delete or deactivate Twitter Debubbler.
 
 [![Available in the Chrome Web Store](https://Ln2.co/images/chrome-web-store.png)](https://chrome.google.com/webstore/detail/twitter-debubbler/hkjoicffkkieieemalcahjhhknneoapn)
+[![Available from Firefox Add-ons](https://Ln2.co/images/firefox-logo-horizontal-lockup.png)](https://chrome.google.com/webstore/detail/twitter-debubbler/hkjoicffkkieieemalcahjhhknneoapn)
 
 ## Changes
 1. Fixed broken icons
 2. Added nightmode support
 3. Fixed search bar and nav bar icon
 4. Added tweetdeck support
+5. Twitter Debubbler added to Firefox
 
 ## Featured on
 
