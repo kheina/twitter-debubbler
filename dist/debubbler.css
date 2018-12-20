@@ -28,256 +28,64 @@
     font-style: normal;
     font-weight: normal
 } /* */
-body .Gallery.without-tweet .Gallery-content {
-    border-radius: 0
-}
-body .Gallery.with-tweet.without-tweet .Gallery-media {
-    border-radius: 0
-}
-body .MomentCapsuleSummary .MomentUserByline-avatar,
-body .MomentMakerRecommendedTweetsSearch--users .MomentMakerRecommendedTweetsSearch-userContainer .avatar {
-    border-radius: 2px
-}
-body .Avatar,
-body .avatar,
-body .nav .session .dropdown-toggle, button, input {
-    border-radius: 3px !important
-}
-body .ProfileCardMini-avatarImage,
-body .ProfileUserList .Avatar,
-body .ProfileUserList .avatar,
-body .ProfileCard-avatarImage,
-body .ProfileListItem-avatar,
-body .ListCreationModule {
-    border-radius: 4px
-}
-body .DashboardProfileCard-avatarLink,
-body .Gallery.without-tweet .Gallery-media,
-body .ProfileCard-avatarLink {
-    border-radius: 6px
-}
-body .DashboardProfileCard-avatarImage {
-    border-radius: 7px
-}
-body .ProfileAvatar-image,
-body .ProfileAvatar-placeholderImage,
-body .ProfileAvatarEditing-button,
-body .ProfileAvatarEditing-overlay {
-    border-radius: 8px
-}
-body .ProfileAvatar,
-body .ProfileAvatarEditing {
-    border-radius: 12px
-}
-body .MomentCapsuleCover .MomentUserByline-avatar,
-body .MomentCapsuleItemTweet--withText .MomentUserByline-avatar {
-    border-radius: 4px
-}
-body .RelatedUsers-users>.account-summary .avatar {
-    border-radius: 4px
-}
-body .ProfileAvatarEditing-addAvatarHelp,
-body .ProfileAvatarEditing-changeAvatarHelp,
-body .ProfileAvatarEditing-dropAvatarHelp,
-body .ProfileAvatarEditing-iframeSavingHelp {
-    padding: 35px 15px 0 15px
-}
-body .ProfileListsTimeline .GridTimeline-items.has-items {
-    border-radius: 4px
-}
-body .module,
-body .content-main,
-body .stream-item.separated-module {
-    border-radius: 6px
-}
-body .ProfileHeading-content,
-body .NotificationsHeadingContent {
-    border-radius: 5px 5px 0 0
-}
-body .stream-end-inner {
-    border-radius: 0 0 5px 5px
-}
-body .stream-end,
-body .stream-loading,
-body .content-main .stream-items .recap-module>.stream-item:last-child,
-body .content-main .stream-items .recap-module>.stream-item:last-child .tweet,
-body .content-main .stream-items .recap-module>.stream-item>li:last-child,
-body .content-main .stream-items .recap-module>.stream-item:last-child li:last-child {
-    border-radius: 0 0 6px 6px
-}
-body .stream-item.separated-module+.stream-item,
-body .stream-item.separated-module+.stream-item .tweet:hover,
-body .PromptbirdPrompt-streamItem.separated-module+.stream-item {
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px
-}
-body .AdaptiveGeoPlace,
-body .SidebarFilterModule,
-body .AdaptiveRelatedSearches {
-    border-radius: 5px
-}
-body .InputToken {
-    border-radius: 2px;
-    border: 1px solid;
-    padding: 1px 5px
-}
-body .InputToken:focus {
-    border: 1px solid;
-    outline: 0
-}
-body .content-inner.no-stream-end {
-    border-radius: 0 0 6px 6px
-}
-body .top-timeline-tweetbox .tweet-user {
-    border-radius: 3px 3px 0 0
-}
-body .AdaptiveSearchTimeline .stream .stream-item:first-child {
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px
-}
-body .AdaptiveSearchTimeline .stream .stream-item:first-child .tweet {
-    border-top-left-radius: 6px!important;
-    border-top-right-radius: 6px!important
-}
-body .AdaptiveSearchTimeline-separationModule+.stream-item {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0
-}
-body .top-timeline-tweetbox .tweet-user {
-    border-radius: 3px 3px 0 0
-}
-body .AdaptiveNewsLargeImageHeadline-image {
-    border-radius: 5px 5px 0 0
-}
-body .AdaptiveNewsLargeImageHeadline-body {
-    border-radius: 0 0 5px 5px
-}
-body .dropdown-menu li>a s,
-body .dropdown-menu .dropdown-link s {
-}
-body .AdaptiveFiltersBar-target,
-body .MomentGuideNavigation-target {
-    font-weight: normal;
-    text-transform: uppercase
-}
-body .EdgeButton {
-    border-radius: 4px
-}
-body .DMComposer-container {
-    border-radius: 3px
-}
-body .DMComposer-editor {
-    padding: 8px!important
-}
-body .DMComposer-discardTweet {
-    border-radius: 3px;
-    margin-right: 0
-}
-body .RichEditor {
-    border-radius: 3px
-}
-body .TweetBoxAttachments {
-    border-radius: 0 0 3px 3px
-}
-body .tweet-form .thumbnail-container .thumbnail-wrapper {
-    padding: 8px
-}
-body .tweet-box textarea:focus,
-body .tweet-box input[type=text],
-body .currently-dragging .tweet-form.is-droppable .tweet-drag-help,
-body .tweet-box[contenteditable="true"]:focus,
-body .RichEditor.is-fakeFocus,
-body .RichEditor.is-fakeFocus ~ .TweetBoxAttachments {
-    box-shadow: none
-}
-body .RichEditor div[contenteditable],
-body .RichEditor div[contenteditable]:focus,
-body .RichEditor div[contenteditable].fake-focus {
-    padding: 8px 10px
-}
-body .TweetBox-photoIntent .photo-selector .btn {
-    padding-right: 12px
-}
+
 body .Icon:before,
-body .Icon:after {
-	font-family: "rosettaicons" !important
-}
+body .Icon:after
+{ font-family: "rosettaicons" !important }
 body .icon:before,
-body .icon:after {
-    font-family: "tweetdeck" !important
+body .icon:after
+{ font-family: "tweetdeck" !important }
+
+body .Icon--homeFilled:before
+{ content: "\f053" }
+body .Icon--lightningFilled:before
+{ content: "\f160" }
+body .Icon--notificationsFilled:before
+{ content: "\f055" }
+body .Icon--meFilled:before
+{ content: "\f056" }
+body .Icon--media:before
+{ content: "\f159" }
+body .Icon--heartBadge:before
+{ content: "\f148" }
+body .Icon--retweeted:before
+{ content: "\f152" }
+body .Icon--follower:before
+{
+    content: "\f175";
+    font-size: 24px;
+    margin-left: -4px;
 }
-body .pull-right:before,
-body .pull-right:after {
-	font-size: 17px !important
+
+body .pull-right:before, body .pull-right:after
+{ font-size: 17px !important }
+body .icon-play-video:before, body .icon-play-video:after, body .video-overlay .icon:before, body .video-overlay .icon:after
+{ font-size: 40px }
+a .icon:before, a .icon:after
+{ font-size: 20px }
+a .icon-check:before, a .icon-check:after
+{ font-size: 12px }
+a .icon-medium:before, a .icon-medium:after
+{ font-size: 24px }
+a .icon-large:before, a .icon-large:after
+{ font-size: 26px }
+body .FollowStatus, body .follow-status
+{
+    text-transform: uppercase;
+    border: 0;
+    font-size: 11px;
+    margin-left: 3px
 }
-body .icon-play-video:before,
-body .icon-play-video:after,
-body .video-overlay .icon:before,
-body .video-overlay .icon:after {
-	font-size: 40px
-}
-a .icon:before,
-a .icon:after {
-	font-size: 20px
-}
-a .icon-check:before,
-a .icon-check:after {
-	font-size: 12px
-}
-a .icon-medium:before,
-a .icon-medium:after {
-	font-size: 24px
-}
-a .icon-large:before,
-a .icon-large:after {
-	font-size: 26px
-}
-li.js-item-launch i:before,
-li.js-item-launch i:after {
-	font-size: 34px
-}
-body .btn-compose {
-	padding: 3px 8px 0px !important
-}
-body .nav .moments .Icon--lightning,
-body .nav .moments .Icon--lightningFilled {
-    font-size: 25px;
-    line-height: 21px;
-    margin-left: 5px
-}
-body .Icon--homeFilled:before {
-    content: "\f053";
-}
-body .Icon--lightningFilled:before {
-    content: "\f160";
-}
-body .Icon--notificationsFilled:before {
-    content: "\f055";
-}
-body .Icon--meFilled:before {
-    content: "\f056";
-}
-body .Icon--media:before {
-    content: "\f159";
-}
-body .MomentMakerSortMenu-icons {
-    font-size: 7px;
-    margin-right: 6px;
-    width: 8px
-}
-body .modal-close .Icon--close {
-    font-size: 12px
-}
-body .DMActivity-back>.Icon--caretLeft,
-body .DMPopover-button>.Icon--dots,
-body .DMActivity-close>.Icon--close {
-    font-size: 12px
-}
-body .ProfileTweet-action--favorite:hover .HeartAnimation,
-body .ProfileTweet-action--favorite .ProfileTweet-actionButton:focus .HeartAnimation,
-body .favorited .ProfileTweet-action--favorite .HeartAnimation {
-    background-position: right
-}
+
+body .ProfileCardStats-statLabel, body .MomentCapsuleLikesFacepile-count, body .ProfileNav-label, body .stats a, body .AdaptiveFiltersBar-target,
+body .MomentGuideNavigation-target
+{ text-transform: uppercase }
+body .MomentCapsuleSummary-title, body .PageDownload-title, body .PromptbirdPrompt-title, body .Streams .LoginCallOut-title, body .Streams .SignupCallOut-title,
+body .follow-card h1 small, body .modal-header .modal-title, body .fast-signup .sign-up-box .signup, body .settings-header, body .wrapper-settings .header-inner h2,
+body .ProfileCardStats-statLabel, body .ProfileNav-label, body .MomentCapsuleLikesFacepile-count, body .stats a, body .AdaptiveFiltersBar-target,
+body .MomentGuideNavigation-target
+{ font-weight: normal }
+
 body .StartCongratulations-bodyText,
 body .StartFindFriends-timelineHeader label,
 body .StreamsCategoryBar-itemName,
@@ -289,9 +97,7 @@ body .InStreamLogin .LoginCallOut-title,
 body .InStreamSignup .SignupForm-input input::-webkit-input-placeholder,
 body .InStreamLogin .LoginForm-input input::-webkit-input-placeholder,
 body .VideoTrim-timeContainer,
-body .StreamsHero-blurb {
-    font-weight: 200
-}
+body .StreamsHero-blurb,
 body .StartCongratulations-bodyText,
 body .StartFindFriends-timelineHeader label,
 body .StreamsCategoryBar-itemName,
@@ -303,9 +109,7 @@ body .InStreamLogin .LoginCallOut-title,
 body .InStreamSignup .SignupForm-input input:-moz-placeholder,
 body .InStreamLogin .LoginForm-input input:-moz-placeholder,
 body .VideoTrim-timeContainer,
-body .StreamsHero-blurb {
-    font-weight: 200
-}
+body .StreamsHero-blurb,
 body .StartCongratulations-bodyText,
 body .StartFindFriends-timelineHeader label,
 body .StreamsCategoryBar-itemName,
@@ -317,9 +121,7 @@ body .InStreamLogin .LoginCallOut-title,
 body .InStreamSignup .SignupForm-input input::-moz-placeholder,
 body .InStreamLogin .LoginForm-input input::-moz-placeholder,
 body .VideoTrim-timeContainer,
-body .StreamsHero-blurb {
-    font-weight: 200
-}
+body .StreamsHero-blurb,
 body .StartCongratulations-bodyText,
 body .StartFindFriends-timelineHeader label,
 body .StreamsCategoryBar-itemName,
@@ -331,9 +133,7 @@ body .InStreamLogin .LoginCallOut-title,
 body .InStreamSignup .SignupForm-input input:-ms-input-placeholder,
 body .InStreamLogin .LoginForm-input input:-ms-input-placeholder,
 body .VideoTrim-timeContainer,
-body .StreamsHero-blurb {
-    font-weight: 200
-}
+body .StreamsHero-blurb,
 body .StartCongratulations-bodyText,
 body .StartFindFriends-timelineHeader label,
 body .StreamsCategoryBar-itemName,
@@ -345,9 +145,8 @@ body .InStreamLogin .LoginCallOut-title,
 body .InStreamSignup .SignupForm-input input::placeholder,
 body .InStreamLogin .LoginForm-input input::placeholder,
 body .VideoTrim-timeContainer,
-body .StreamsHero-blurb {
-    font-weight: 200
-}
+body .StreamsHero-blurb
+{ font-weight: 200 }
 body .BlocksYouTimeline-heading,
 body .DMActivity-title,
 body .DMUpdateName-input,
@@ -440,18 +239,16 @@ body .Streams-headerModule p,
 body .route-logout h2,
 body .four-twenty h2,
 body .AdaptiveSearchPage-moduleTitle,
-body .TweetImpressionsModule-heading {
-    font-weight: 300
-}
+body .TweetImpressionsModule-heading
+{ font-weight: 300 }
 body .MomentAnalyticsData-entryName,
 body .MomentAnalyticsData-entryValue,
 body .ProfileThumbnailPicker .DashboardProfileCard-screennameLink,
 body .ProfileWarningTimeline-heading,
 body .SearchNavigation-titleText,
 body .StreamToggler-link,
-body .TweetTextSize.TweetTextSize--large {
-    font-weight: 400
-}
+body .TweetTextSize.TweetTextSize--large
+{ font-weight: 400 }
 body .BackgroundImagePrompt-title,
 body .ImportFriendsCallout-title,
 body .MomentCapsuleEditableMeta-title .rich-editor,
@@ -490,41 +287,398 @@ body .StreamToggler-link.is-active:focus,
 body .LiveEventTimelineNavigation-item.is-active,
 body .ProfileHeading-toggleItem.is-active,
 body .ProfileHeading-toggleItem.is-active:hover,
-body .ProfileHeading-toggleItem.is-active:focus {
-    font-weight: 500
-}
+body .ProfileHeading-toggleItem.is-active:focus
+{ font-weight: 500 }
 body .MomentCapsuleCover-title,
-body .ProfileNav-value {
-    font-weight: 600
-}
+body .ProfileNav-value
+{ font-weight: 600 }
 body .DashboardProfileCard-name,
 body .ProfileHeaderCardEditing-name .ProfileHeaderCardEditing-editableField,
 body .ProfileHeaderCard-nameLink,
 body .ProfileNameTruncated-link,
 body .SignupCallOut-title b,
 body .FacebookConnect-title,
-body .front-welcome-text h1 {
-    font-weight: 700
-}
+body .front-welcome-text h1
+{ font-weight: 700 }
 body .invite-landing-title,
-body .fast-signup .field-name {
-    font-weight: lighter
+body .fast-signup .field-name
+{ font-weight: lighter }
+
+body .Gallery .modal-close .Icon--close
+{
+    font-size: 21px;
+    font-weight: bold
 }
-body .MomentCapsuleSummary-title,
-body .PageDownload-title,
-body .PromptbirdPrompt-title,
-body .Streams .LoginCallOut-title,
-body .Streams .SignupCallOut-title,
-body .follow-card h1 small,
-body .modal-header .modal-title,
-body .fast-signup .sign-up-box .signup,
-body .settings-header,
-body .wrapper-settings .header-inner h2,
-body .ProfileCardStats-statLabel,
-body .ProfileNav-label,
-body .MomentCapsuleLikesFacepile-count,
-body .stats a {
-    font-weight: normal
+body .global-dm-nav.new.with-count .dm-new .count-inner,
+body .global-nav .people .count .count-inner
+{
+    border-radius: 5px;
+    opacity: .6;
+}
+body .global-dm-nav .dm-new,
+body .global-nav .people .count
+{
+    border-radius: 6px;
+    left: 20px;
+    padding: 2px
+}
+body .global-nav .search-icon
+{
+    margin-right: -9px;
+    margin-top: 1px;
+}
+body .global-nav .search-icon .Icon
+{ font-size: 13px }
+i.icon.txt-size--16
+{ font-size: 20px !important }
+body .AdaptiveFiltersBar-item.is-selected,
+body .ProfileNav-item.is-active .ProfileNav-stat,
+body .ProfileNav-stat:hover,
+body .ProfileNav-stat:focus,
+body .MomentGuideNavigation-item.is-active
+{ border-bottom-width: 4px }
+body .ProfileNav-dropdownCaret
+{
+    font-size: 12px;
+    line-height: 1;
+    vertical-align: baseline
+}
+body .hovercard.profile-card .ProfileCard-content .FollowStatus
+{
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 0;
+    padding: 0 4px
+}
+body .hovercard.profile-card
+{ border: 0 }
+body .hovercard.profile-card .ProfileCard-bg
+{
+    background-position: center -5px;
+    background-size: auto 100px;
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+    border-radius: 5px 5px 0 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    height: 95px
+}
+body .hovercard.profile-card .ProfileCard-content
+{
+    text-shadow: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 285px;
+    padding: 15px 10px 10px 11px
+}
+body .hovercard.profile-card .bio-container
+{
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 5px
+}
+body .hovercard.profile-card.profile-header .DashboardProfileCard-stats
+{ padding-left: 11px }
+body .hovercard.profile-card .DashboardProfileCard-statValue
+{ margin-bottom: 4px }
+body .DashboardProfileCard .ProfileCardStats
+{ padding-top: 10px }
+body .hovercard.profile-card .ProfileCard-userFields
+{
+    position: relative;
+    margin-top: 15px;
+}
+body .hovercard.profile-card .follow-button .button-text
+{ min-width: 0 }
+body .ProfileCardMini-avatarImage, body .ProfileUserList .Avatar, body .ProfileUserList .avatar, body .ProfileCard-avatarImage, body .ProfileListItem-avatar,
+body .ListCreationModule
+{
+    border-radius: 4px;
+    border: 0 !important;
+}
+body .DashboardProfileCard-avatarLink, body .Gallery.without-tweet .Gallery-media, body .ProfileCard-avatarLink, body .module, 
+body .stream-item.separated-module, body .ProfileSidebar .TweetImpressionsModule, body .ProfileSidebar .ProfileLifelineInfo, body .ProfileSidebar .RelatedUsers
+{ border-radius: 6px; }
+body .ProfileCard-avatarLink
+{ padding: 3px !important }
+body .ProfileCard-userFields
+{
+    z-index: 100;
+}
+body .ProfileCard-bg
+{ height: 95px; }
+body .ProfileCard
+{
+    border-radius: 4px;
+    overflow: hidden;
+}
+body .ProfileCard-userFields,
+body .ProfileCard-bio
+{ margin-top: 5px }
+body .ProfileCard .social-proof
+{ margin-top: 10px }
+body .ProfileCardStats
+{
+    margin-left: 11px;
+    padding: 0 0 10px
+}
+body .ProfileHeading-content, body .NotificationsHeadingContent
+{ border-radius: 5px 5px 0 0 }
+
+body .ProfileTweet-action--favorite:hover .HeartAnimation, body .ProfileTweet-action--favorite .ProfileTweet-actionButton:focus .HeartAnimation,
+body .favorited .ProfileTweet-action--favorite .HeartAnimation
+{ background-position: right }
+body .MomentTweetActions .HeartAnimationContainer
+{
+    height: 12px;
+    top: 1px;
+    width: 11px
+}
+body .MomentTweetActions .HeartAnimation
+{
+    height: 35px;
+    width: 35px
+}
+body .DashboardProfileCard.module
+{ overflow: hidden }
+body .DashboardProfileCard .DashboardProfileCard-bg
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+body .ProfileListsTimeline .GridTimeline-items.has-items
+{ border-radius: 0 0 5px 5px; }
+body .top-timeline-tweetbox div.timeline-tweet-box, .permalink div.tweet.permalink-tweet
+{
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+body div.RichEditor, .DirectMessage-message
+{
+    border-radius: 5px;
+    overflow: hidden;
+}
+body .RichEditor .u-borderRadiusInherit, .DirectMessage-contentContainer
+{ border-radius: 0 !important }
+body .stream-footer .timeline-end div.stream-end
+{
+    border-radius: 0 0 6px 6px;
+    overflow: hidden;
+}
+li.topbar-tweet-btn
+{ margin: 0 16px 0 }
+img, video, .PlayableMedia-player
+{
+    background: #0000 !important;
+    background-color: #0000 !important;
+}
+
+.HeartAnimation
+{
+    /* FIREFOX */
+    background-image: url(./icons/web_heart_animation.png) !important /* */
+    /* CHROME 
+    background-image: url(chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/web_heart_animation.png) !important /* */
+}
+
+body .ProfileAvatar-image,
+body .ProfileAvatar-placeholderImage,
+body .ProfileAvatarEditing-button,
+body .ProfileAvatarEditing-overlay,
+.ProfileAvatarEditing-image.avatar
+{ border-radius: 8px !important }
+body .ProfileAvatar,
+body .ProfileAvatarEditing
+{ border-radius: 12px !important }
+.media-size-medium, .media-size-small, .compose-media-grid-holder, .TwitterCard-container
+{ border-radius: 4px !important; }
+.br--14, div.QuoteTweet, .tweet-detail-media .media-item, .tweet-detail-media .media-preview, .AdaptiveMedia, .TwitterCard-container, .br--20
+{ border-radius: 5px !important; }
+a.tweet-action span.margin-t--1
+{
+	margin-top: 0px!important;
+	margin-bottom: -1em;
+}
+ .list-nav, .js-nav-links, .attach-compose-buttons .tweet-button
+{ border-radius: 3px 0 0 3px !important; }
+.mdl.s-full, .media-grid-container .media-image-container .media-image, .AdaptiveMedia-video, .PlayableMedia-container
+{ border-radius: 0px !important; }
+.PlayableMedia-container, .AdaptiveMedia.is-square:not(.is-video)
+{ border: 0 !important; }
+.media-sensitive, .js-media-sensitive-overlay, .media-sensitive .js-media-sensitive-overlay, .quoted-tweet .media-size-medium, .quoted-tweet .media-size-small,
+.media-grid-container, .compose-media-bar-thumb.full-width, body .Avatar, body .avatar, body .nav .session .dropdown-toggle, button, input, .QuoteMedia, .DMAvatar
+{ border-radius: 3px !important; }
+.rn-1oszu61, .rn-1ila09b, .rn-qklmqi, .rn-1adg3ll, .rn-buy8e9, .rn-1pi2tsx, .rn-13qz1uu, .rn-1jkw2lh
+{ border-radius: 0 !important; }
+.rn-bqytpi, .rn-1sed4dd, .rn-11x824e, .rn-r0fnf6, .rn-5kkj8d, .rn-1ljd8xs, .rn-1loqt21, .rn-o7ynqc, .rn-1j63xyz
+{ border-radius: 4px !important; }
+.rn-1oszu61, .rn-1efd50x, .rn-14skgim, .rn-rull8r, .rn-mm0ijv, .rn-13yce4e, .rn-fnigne, .rn-ndvcnb, .rn-gxnn5r, .rn-deolkf, .rn-6koalj, .rn-1qe8dj5, .rn-1mlwlqe, .rn-eqz5dr, .rn-1mnahxq, .rn-p1pxzi, .rn-11wrixw, .rn-1ifrmw8, .rn-ifefl9, .rn-bcqeeo, .rn-wk8lta, .rn-9aemit, .rn-1mdbw0j, .rn-gy4na3, .rn-bnwqim, .rn-1lgpqti
+{ border-radius: 2px; }
+ul.js-nav-links li, body .DashboardProfileCard-avatarImage
+{ border-radius: 6px !important; }
+.content-header .header-inner
+{ border-radius: inherit !important; }
+button.new-tweets-bar
+{ border-radius: 0 !important; }
+
+/*
+body .Gallery.without-tweet .Gallery-content {
+    border-radius: 0
+}
+body .Gallery.with-tweet.without-tweet .Gallery-media {
+    border-radius: 0
+}
+body .MomentCapsuleSummary .MomentUserByline-avatar,
+body .MomentMakerRecommendedTweetsSearch--users .MomentMakerRecommendedTweetsSearch-userContainer .avatar {
+    border-radius: 2px
+}
+body .Avatar,
+body .avatar,
+body .nav .session .dropdown-toggle, button, input {
+    border-radius: 3px !important
+}
+body .MomentCapsuleCover .MomentUserByline-avatar,
+body .MomentCapsuleItemTweet--withText .MomentUserByline-avatar {
+    border-radius: 4px
+}
+body .RelatedUsers-users>.account-summary .avatar {
+    border-radius: 4px
+}
+body .ProfileAvatarEditing-addAvatarHelp,
+body .ProfileAvatarEditing-changeAvatarHelp,
+body .ProfileAvatarEditing-dropAvatarHelp,
+body .ProfileAvatarEditing-iframeSavingHelp {
+    padding: 35px 15px 0 15px
+}
+body .module,
+body .content-main,
+body .stream-item.separated-module {
+    border-radius: 6px
+}
+body .stream-end-inner {
+    border-radius: 0 0 5px 5px
+}
+body .stream-end,
+body .stream-loading,
+body .content-main .stream-items .recap-module>.stream-item:last-child,
+body .content-main .stream-items .recap-module>.stream-item:last-child .tweet,
+body .content-main .stream-items .recap-module>.stream-item>li:last-child,
+body .content-main .stream-items .recap-module>.stream-item:last-child li:last-child {
+    border-radius: 0 0 6px 6px
+}
+body .stream-item.separated-module+.stream-item,
+body .stream-item.separated-module+.stream-item .tweet:hover,
+body .PromptbirdPrompt-streamItem.separated-module+.stream-item {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px
+}
+body .AdaptiveGeoPlace,
+body .SidebarFilterModule,
+body .AdaptiveRelatedSearches {
+    border-radius: 5px
+}
+body .InputToken {
+    border-radius: 2px;
+    border: 1px solid;
+    padding: 1px 5px
+}
+body .InputToken:focus {
+    border: 1px solid;
+    outline: 0
+}
+body .content-inner.no-stream-end {
+    border-radius: 0 0 6px 6px
+}
+body .top-timeline-tweetbox .tweet-user {
+    border-radius: 3px 3px 0 0
+}
+body .AdaptiveSearchTimeline .stream .stream-item:first-child {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px
+}
+body .AdaptiveSearchTimeline .stream .stream-item:first-child .tweet {
+    border-top-left-radius: 6px!important;
+    border-top-right-radius: 6px!important
+}
+body .AdaptiveSearchTimeline-separationModule+.stream-item {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+body .top-timeline-tweetbox .tweet-user {
+    border-radius: 3px 3px 0 0
+}
+body .AdaptiveNewsLargeImageHeadline-image {
+    border-radius: 5px 5px 0 0
+}
+body .AdaptiveNewsLargeImageHeadline-body {
+    border-radius: 0 0 5px 5px
+}
+body .dropdown-menu li>a s,
+body .dropdown-menu .dropdown-link s {
+}
+body .EdgeButton {
+    border-radius: 4px
+}
+body .DMComposer-container {
+    border-radius: 3px
+}
+body .DMComposer-editor {
+    padding: 8px!important
+}
+body .DMComposer-discardTweet {
+    border-radius: 3px;
+    margin-right: 0
+}
+body .RichEditor {
+    border-radius: 3px
+}
+body .TweetBoxAttachments {
+    border-radius: 0 0 3px 3px
+}
+body .tweet-form .thumbnail-container .thumbnail-wrapper {
+    padding: 8px
+}
+body .tweet-box textarea:focus,
+body .tweet-box input[type=text],
+body .currently-dragging .tweet-form.is-droppable .tweet-drag-help,
+body .tweet-box[contenteditable="true"]:focus,
+body .RichEditor.is-fakeFocus,
+body .RichEditor.is-fakeFocus ~ .TweetBoxAttachments {
+    box-shadow: none
+}
+body .RichEditor div[contenteditable],
+body .RichEditor div[contenteditable]:focus,
+body .RichEditor div[contenteditable].fake-focus {
+    padding: 8px 10px
+}
+body .TweetBox-photoIntent .photo-selector .btn {
+    padding-right: 12px
+}
+li.js-item-launch i:before,
+li.js-item-launch i:after {
+	font-size: 34px
+}
+body .btn-compose {
+	padding: 3px 8px 0px !important
+}
+body .nav .moments .Icon--lightning,
+body .nav .moments .Icon--lightningFilled {
+    font-size: 25px;
+    line-height: 21px;
+    margin-left: 5px
+}
+body .MomentMakerSortMenu-icons {
+    font-size: 7px;
+    margin-right: 6px;
+    width: 8px
+}
+body .modal-close .Icon--close {
+    font-size: 12px
+}
+body .DMActivity-back>.Icon--caretLeft,
+body .DMPopover-button>.Icon--dots,
+body .DMActivity-close>.Icon--close {
+    font-size: 12px
 }
 body .flex-module-header h3,
 body .Trends .trend-location,
@@ -556,12 +710,6 @@ body .ProfileTweet-actionCount {
 }
 body .RichEntryHeaderCaret {
 }
-body .ProfileCardStats-statLabel,
-body .MomentCapsuleLikesFacepile-count,
-body .ProfileNav-label,
-body .stats a {
-    text-transform: uppercase
-}
 body .MomentCapsuleLikesFacepile-count {
     font-size: 10px
 }
@@ -569,10 +717,6 @@ body .Gallery .modal-close {
     height: auto;
     right: -30px;
     padding: 0
-}
-body .Gallery .modal-close .Icon--close {
-    font-size: 21px;
-    font-weight: bold
 }
 body .PermalinkProfile-dismiss {
     cursor: pointer;
@@ -591,13 +735,6 @@ body #global-actions>li:hover>a,
 body #global-actions>li.active>a {
     height: 42px
 }
-body .AdaptiveFiltersBar-item.is-selected,
-body .ProfileNav-item.is-active .ProfileNav-stat,
-body .ProfileNav-stat:hover,
-body .ProfileNav-stat:focus,
-body .MomentGuideNavigation-item.is-active {
-    border-bottom-width: 4px
-}
 body .AdaptiveNewsHeadlineDetails-userImage {
     border-radius: 0
 }
@@ -613,12 +750,6 @@ body .AdaptiveNewsRelatedHeadlines .AdaptiveSearchPage-moduleTitle {
 }
 body .tweet .content .context .with-icn .Icon {
     font-size: 16px
-}
-body .global-nav .search-icon {
-    right: -3px
-}
-body .global-nav .search-icon .Icon {
-    font-size: 13px
 }
 body .PhotoRail-heading {
     line-height: 1;
@@ -769,11 +900,6 @@ body .MomentGuideNavigation-target--more .Icon--caretDown {
     line-height: 10px;
     vertical-align: baseline
 }
-body .ProfileNav-dropdownCaret {
-    font-size: 12px;
-    line-height: 1;
-    vertical-align: baseline
-}
 body .user-actions .dropdown {
     margin-left: 8px
 }
@@ -783,83 +909,6 @@ body .tweet>.context .with-icn .Icon--heartBadge {
 }
 body .tweet>.context .with-icn .Icon--follower,
 body .tweet>.context .with-icn .Icon--reply {
-}
-body .HeartAnimation {
-    /* FIREFOX */
-    background-image: url(./icons/web_heart_animation.png) /* */
-    /* CHROME 
-    background-image: url(chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/web_heart_animation.png); /* */
-}
-body .follow-status {
-    text-transform: uppercase
-}
-body .ProfileCard {
-    border: 1px solid inherit;
-    border-radius: 5px
-}
-body .ProfileCard-bg {
-    border-bottom: 1px solid inherit;
-    height: 95px;
-    border-radius: 4px 4px 0 0
-}
-body .ProfileCard-userFields,
-body .ProfileCard-bio {
-    margin-top: 5px
-}
-body .ProfileCard-bio {
-}
-body .ProfileCard .social-proof {
-    margin-top: 10px
-}
-body .ProfileCardStats {
-    margin-left: 11px;
-    padding: 0 0 10px
-}
-body .hovercard.profile-card .ProfileCard-content .FollowStatus {
-    border-radius: 3px;
-    display: inline-block;
-    margin-left: 0;
-    padding: 0 4px
-}
-body .hovercard.profile-card {
-    border: 0
-}
-body .hovercard.profile-card .ProfileCard-bg {
-    background-position: center -5px;
-    background-size: auto 100px;
-    border-bottom-color: rgba(0, 0, 0, 0.25);
-    border-radius: 5px 5px 0 0;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    height: 95px
-}
-body .hovercard.profile-card .ProfileCard-content {
-    text-shadow: none;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 285px;
-    padding: 15px 10px 10px 11px
-}
-body .hovercard.profile-card .bio-container {
-    font-size: 12px;
-    line-height: 15px;
-    margin-bottom: 5px
-}
-body .hovercard.profile-card.profile-header .DashboardProfileCard-stats {
-    padding-left: 11px
-}
-body .hovercard.profile-card .DashboardProfileCard-statValue {
-    margin-bottom: 4px
-}
-body .DashboardProfileCard .ProfileCardStats {
-    padding-top: 10px
-}
-body .hovercard.profile-card .ProfileCard-userFields {
-    position: absolute;
-    top: -12px;
-    left: 90px;
-    max-width: 135px
 }
 body .Footer .Footer-adsModule,
 body .wtf-module .import-prompt {
@@ -879,15 +928,6 @@ body .stream-container .AdaptiveStreamGridImage .grid-tweet-action.action-rt-con
 body .MomentTweetActions .ProfileTweet-action .Icon {
     font-size: 12px;
     line-height: 1
-}
-body .MomentTweetActions .HeartAnimationContainer {
-    height: 12px;
-    top: 1px;
-    width: 11px
-}
-body .MomentTweetActions .HeartAnimation {
-    height: 35px;
-    width: 35px
 }
 body .DirectMessage-message {
     border-radius: 4px!important
@@ -946,12 +986,6 @@ body .DirectMessage--received .Caret:before {
 body .DMQuickReply-optionText {
     border-radius: 5px
 }
-body .FollowStatus {
-    text-transform: uppercase;
-    border: 0;
-    font-size: 11px;
-    margin-left: 3px
-}
 body .js-global-new-tweet .Icon {
     display: inline-block;
     top: 4px;
@@ -964,9 +998,6 @@ body .js-global-new-tweet .Icon {
     body .js-global-new-tweet .text {
         display: none
     }
-}
-body .hovercard.profile-card .follow-button .button-text {
-    min-width: 0
 }
 body .MomentCapsuleCover .MomentDropdownMenu {
     margin-left: 8px
@@ -1011,18 +1042,6 @@ body .LiveVideoPage .LiveVideoTimeline.is-multipleTimelines .LiveVideo-tweetBox 
 }
 body .LiveVideoTimelineNavigation {
     border-radius: 5px 5px 0 0
-}
-body .global-dm-nav .dm-new,
-body .global-nav .people .count {
-    border-radius: 6px;
-    left: 20px;
-    padding: 2px
-}
-body .global-dm-nav.new.with-count .dm-new .count-inner,
-body .global-nav .people .count .count-inner {
-    border-radius: 5px;
-    opacity: .6;
-    -ms-filter: "alpha(opacity=60)"
 }
 body .global-nav .people:hover .count .count-inner,
 body .global-nav .people a:focus .count .count-inner,
@@ -1101,35 +1120,4 @@ body .MomentCapsuleLikesFacepile-countNum {
     font-size: 18px;
     padding-right: 0
 }
-
-.media-size-medium, .media-size-small, .compose-media-grid-holder, .TwitterCard-container
-{ border-radius: 4px !important; }
-.br--14
-{ border-radius: 7px !important; }
-.quoted-tweet .media-size-medium, .quoted-tweet .media-size-small, .media-grid-container, .compose-media-bar-thumb.full-width
-{ border-radius: 3px !important; }
-.tweet-detail-media .media-item, .tweet-detail-media .media-preview, .AdaptiveMedia, .TwitterCard-container, .br--20, .txt-ellipsis
-{ border-radius: 5px !important; }
-a.tweet-action span.margin-t--1
-{
-	margin-top: 0px!important;
-	margin-bottom: -1em;
-}
-.list-nav, .js-nav-links
-
-.attach-compose-buttons .tweet-button
-{ border-radius: 3px 0 0 3px !important; }
-.mdl.s-full, .media-grid-container .media-image-container .media-image, .AdaptiveMedia-video, .PlayableMedia-container
-{ border-radius: 0px !important; }
-.PlayableMedia-container, .AdaptiveMedia.is-square:not(.is-video)
-{ border: 0 !important; }
-.media-sensitive, .js-media-sensitive-overlay, .media-sensitive .js-media-sensitive-overlay
-{ border-radius: 3px !important; }
-.rn-1oszu61, .rn-1ila09b, .rn-rull8r, .rn-qklmqi, .rn-1efd50x, .rn-14skgim, .rn-mm0ijv, .rn-13yce4e, .rn-fnigne, .rn-gxnn5r, .rn-deolkf, .rn-6koalj, .rn-1qe8dj5, .rn-1mlwlqe, .rn-eqz5dr, .rn-1mnahxq, .rn-61z16t, .rn-p1pxzi, .rn-11wrixw, .rn-ifefl9, .rn-bcqeeo, .rn-wk8lta, .rn-9aemit, .rn-1mdbw0j, .rn-gy4na3, .rn-bnwqim, .rn-1lgpqti, .rn-ndvcnb, .rn-1adg3ll, .rn-buy8e9, .rn-1pi2tsx, .rn-13qz1uu, .rn-1jkw2lh
-{ border-radius: 0 !important; }
-.rn-bqytpi, .rn-1sed4dd, .rn-11x824e, .rn-r0fnf6, .rn-5kkj8d, .rn-1ljd8xs, .rn-1loqt21, .rn-o7ynqc, .rn-1j63xyz
-{ border-radius: 4px !important; }
-ul.js-nav-links li
-{ border-radius: 6px !important; }
-.content-header .header-inner
-{ border-radius: inherit !important; }
+*/
