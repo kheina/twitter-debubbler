@@ -529,44 +529,31 @@ button.new-tweets-bar
 
 
 
-.app-header.is-condensed .app-header-inner{
-    width:50px !important;
-    padding:10px 7px !important;
-}
-.is-condensed .app-header{
-    width:50px !important;
-}
-ul .column-nav-item .js-header-action,
-ul .js-column-nav-menu-item .js-header-action,
-ul .column-nav-item .js-drag-handle,
-ul .js-column-nav-menu-item .js-drag-handle,
-ul .column-nav-item .drag-handle,
-ul .js-column-nav-menu-item .drag-handle,
-.js-column-nav-list .column-nav-item .link-clean,
-.js-column-nav-list .js-column-nav-menu-item .link-clean,
-ul .column-nav-item .cf,
-ul .js-column-nav-menu-item .cf,
-ul .column-nav-item .column-nav-link,
-ul .js-column-nav-menu-item .column-nav-link,
-.app-header-inner .js-column-nav-list .js-header-action.js-header-add-column,
-.app-header-inner .app-navigator .js-header-action,
-.app-header-inner .app-navigator .link-clean,
-.app-header-inner .app-navigator .cf,
-.app-header-inner .app-navigator .app-nav-link
+.app-header.is-condensed .app-header-inner
 {
-    padding-left:11px !important;
-    padding-right:11px !important;
+    width: 50px !important;
+    padding: 10px 7px !important;
 }
-.app-header-inner{
-    min-width:0px !important;
+.is-condensed .app-header
+{ width: 50px !important; }
+ul .column-nav-item .js-header-action, ul .js-column-nav-menu-item .js-header-action, ul .column-nav-item .js-drag-handle, ul .js-column-nav-menu-item .js-drag-handle, ul .column-nav-item .drag-handle,
+ul .js-column-nav-menu-item .drag-handle, .js-column-nav-list .column-nav-item .link-clean, .js-column-nav-list .js-column-nav-menu-item .link-clean, ul .column-nav-item .cf, ul .js-column-nav-menu-item .cf,
+ul .column-nav-item .column-nav-link, ul .js-column-nav-menu-item .column-nav-link, .app-header-inner .js-column-nav-list .js-header-action.js-header-add-column, .app-header-inner .app-navigator .js-header-action,
+.app-header-inner .app-navigator .link-clean, .app-header-inner .app-navigator .cf, .app-header-inner .app-navigator .app-nav-link
+{
+    padding-left: 11px !important;
+    padding-right: 11px !important;
 }
-.is-condensed .app-content{
-    left:50px !important;
+.app-header-inner
+{ min-width: 0px !important; }
+.is-condensed .app-content
+{ left: 50px !important; }
+.app-nav-tab
+{ margin-left: 0 !important; }
+.js-account-summary a .margin-h--4, .margin-hs
+{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
-.app-nav-tab{
-    margin-left:0 !important;
-}
-.js-account-summary a .margin-h--4, .margin-hs{
-    margin-left:0 !important;
-    margin-right:0 !important;
-}
+.needs-scroll-bottom-offset.scroll-styled-h
+{ bottom: 0 !important; }
