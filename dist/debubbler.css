@@ -331,11 +331,8 @@ body .global-nav .search-icon .Icon
 { font-size: 13px }
 i.icon.txt-size--16
 { font-size: 20px !important }
-body .AdaptiveFiltersBar-item.is-selected,
-body .ProfileNav-item.is-active .ProfileNav-stat,
-body .ProfileNav-stat:hover,
-body .ProfileNav-stat:focus,
-body .MomentGuideNavigation-item.is-active
+body .AdaptiveFiltersBar-item.is-selected, body .ProfileNav-item.is-active .ProfileNav-stat, body .ProfileNav-stat:hover, body .ProfileNav-stat:focus,
+body .MomentGuideNavigation-item.is-active, #global-actions>li>a
 { border-bottom-width: 4px }
 body .ProfileNav-dropdownCaret
 {
@@ -492,7 +489,9 @@ body .ProfileAvatarEditing
 { border-radius: 12px !important }
 .media-size-medium, .media-size-small, .compose-media-grid-holder, .TwitterCard-container
 { border-radius: 4px !important; }
-.br--14, div.QuoteTweet, .tweet-detail-media .media-item, .tweet-detail-media .media-preview, .AdaptiveMedia, .TwitterCard-container, .br--20
+iframe, .br--14, div.QuoteTweet, .tweet-detail-media .media-item, .tweet-detail-media .media-preview, .AdaptiveMedia, .TwitterCard-container, .br--20,
+.compose-text-container .lst, .compose-text-container .lst-modal, .compose-text-container .typeahead,
+.js-modal-inner.mdl.prf.s-profile
 { border-radius: 5px !important; }
 a.tweet-action span.margin-t--1
 {
@@ -506,7 +505,8 @@ a.tweet-action span.margin-t--1
 .PlayableMedia-container, .AdaptiveMedia.is-square:not(.is-video)
 { border: 0 !important; }
 .media-sensitive, .js-media-sensitive-overlay, .media-sensitive .js-media-sensitive-overlay, .quoted-tweet .media-size-medium, .quoted-tweet .media-size-small,
-.media-grid-container, .compose-media-bar-thumb.full-width, body .Avatar, body .avatar, body .nav .session .dropdown-toggle, button, input, .QuoteMedia, .DMAvatar
+.media-grid-container, .compose-media-bar-thumb.full-width, body .Avatar, body .avatar, body .nav .session .dropdown-toggle, button, input, .QuoteMedia, .DMAvatar,
+.LoginVerification-EdgeButton, .EdgeButton, .EdgeButton--secondary, .EdgeButton--medium, .avatar--circular
 { border-radius: 3px !important; }
 .rn-1oszu61, .rn-1ila09b, .rn-qklmqi, .rn-1adg3ll, .rn-buy8e9, .rn-1pi2tsx, .rn-13qz1uu, .rn-1jkw2lh
 { border-radius: 0 !important; }
@@ -514,9 +514,59 @@ a.tweet-action span.margin-t--1
 { border-radius: 4px !important; }
 .rn-1oszu61, .rn-1efd50x, .rn-14skgim, .rn-rull8r, .rn-mm0ijv, .rn-13yce4e, .rn-fnigne, .rn-ndvcnb, .rn-gxnn5r, .rn-deolkf, .rn-6koalj, .rn-1qe8dj5, .rn-1mlwlqe, .rn-eqz5dr, .rn-1mnahxq, .rn-p1pxzi, .rn-11wrixw, .rn-1ifrmw8, .rn-ifefl9, .rn-bcqeeo, .rn-wk8lta, .rn-9aemit, .rn-1mdbw0j, .rn-gy4na3, .rn-bnwqim, .rn-1lgpqti
 { border-radius: 2px; }
-ul.js-nav-links li, body .DashboardProfileCard-avatarImage
+ul.js-nav-links li, body .DashboardProfileCard-avatarImage, .popover, .content-main, .SidebarFilterModule
 { border-radius: 6px !important; }
 .content-header .header-inner
 { border-radius: inherit !important; }
 button.new-tweets-bar
 { border-radius: 0 !important; }
+.s-profile .prf-header, .prf .prf-header
+{ border-radius: 5px 5px 0 0 !important; }
+.content-inner.no-stream-end, .stream-footer .stream-loading
+{ border-radius: 0 0 6px 6px !important; }
+.stream-footer .stream-loading
+{ overflow: hidden; }
+
+
+
+.app-header.is-condensed .app-header-inner{
+    width:50px !important;
+    padding:10px 7px !important;
+}
+.is-condensed .app-header{
+    width:50px !important;
+}
+ul .column-nav-item .js-header-action,
+ul .js-column-nav-menu-item .js-header-action,
+ul .column-nav-item .js-drag-handle,
+ul .js-column-nav-menu-item .js-drag-handle,
+ul .column-nav-item .drag-handle,
+ul .js-column-nav-menu-item .drag-handle,
+.js-column-nav-list .column-nav-item .link-clean,
+.js-column-nav-list .js-column-nav-menu-item .link-clean,
+ul .column-nav-item .cf,
+ul .js-column-nav-menu-item .cf,
+ul .column-nav-item .column-nav-link,
+ul .js-column-nav-menu-item .column-nav-link,
+.app-header-inner .js-column-nav-list .js-header-action.js-header-add-column,
+.app-header-inner .app-navigator .js-header-action,
+.app-header-inner .app-navigator .link-clean,
+.app-header-inner .app-navigator .cf,
+.app-header-inner .app-navigator .app-nav-link
+{
+    padding-left:11px !important;
+    padding-right:11px !important;
+}
+.app-header-inner{
+    min-width:0px !important;
+}
+.is-condensed .app-content{
+    left:50px !important;
+}
+.app-nav-tab{
+    margin-left:0 !important;
+}
+.js-account-summary a .margin-h--4, .margin-hs{
+    margin-left:0 !important;
+    margin-right:0 !important;
+}
