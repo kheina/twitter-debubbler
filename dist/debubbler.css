@@ -13,7 +13,7 @@
     font-style: normal;
     font-weight: normal
 } /* */
-/* CHROME
+/* CHROME 
 @font-face {
     font-family: 'rosettaicons';
     src: url('chrome-extension://hkjoicffkkieieemalcahjhhknneoapn/dist/icons/rosetta-icons-Regular.eot');
@@ -446,10 +446,7 @@ body .DashboardProfileCard .DashboardProfileCard-bg
 body .ProfileListsTimeline .GridTimeline-items.has-items
 { border-radius: 0 0 5px 5px; }
 body .top-timeline-tweetbox div.timeline-tweet-box, .permalink div.tweet.permalink-tweet
-{
-    border-radius: 6px 6px 0 0;
-    overflow: hidden;
-}
+{ border-radius: 6px 6px 0 0; }
 body div.RichEditor, .DirectMessage-message
 {
     border-radius: 5px;
@@ -490,8 +487,7 @@ body .ProfileAvatarEditing
 .media-size-medium, .media-size-small, .compose-media-grid-holder, .TwitterCard-container
 { border-radius: 4px !important; }
 iframe, .br--14, div.QuoteTweet, .tweet-detail-media .media-item, .tweet-detail-media .media-preview, .AdaptiveMedia, .TwitterCard-container, .br--20,
-.compose-text-container .lst, .compose-text-container .lst-modal, .compose-text-container .typeahead,
-.js-modal-inner.mdl.prf.s-profile
+.compose-text-container .lst, .compose-text-container .lst-modal, .compose-text-container .typeahead, .js-modal-inner.mdl.prf.s-profile, .mdl
 { border-radius: 5px !important; }
 a.tweet-action span.margin-t--1
 {
